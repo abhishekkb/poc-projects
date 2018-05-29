@@ -12,4 +12,6 @@ public interface IConvertToJsonService {
 	void convertToJson(Workbook excelWorkbook, Workbook schemaWorkbook) throws Exception;
 
 	void convertToJson(Sheet excelSheet, Sheet schemaSheet) throws Exception;
+
+	void convertToJson2(Sheet excelSheet, Sheet schemaSheet) throws Exception;
 }
