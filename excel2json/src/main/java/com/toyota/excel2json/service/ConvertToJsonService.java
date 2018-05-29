@@ -78,7 +78,7 @@ public class ConvertToJsonService implements IConvertToJsonService {
 			}
 		}
 		
-//		mapper.writeValue(new File("C:\\dev\\coder-one\\jsons\\"+rowNumber+".json"), jsonObject);
+		mapper.writeValue(new File("C:\\dev\\coder-one\\jsons\\"+rowNumber+".json"), jsonObject.toString());
 		System.out.println(jsonObject.toString());
 	}
 	
